@@ -1,43 +1,43 @@
-# Project 10: Higher Lower Game
+# Project 11: Coffee Machine
 
 ## Description:
-The Higher-Lower Game is a fun and interactive command-line game where players guess which option has more followers 
-on social media. The game continues as long as the user guesses correctly, keeping track of their score. It offers a 
-simple yet engaging experience, demonstrating core programming concepts like data handling, user interaction, and 
-modular design.
+This Coffee Machine project is a Python-based program that simulates a real-world coffee vending machine. It allows users to select from available drinks, processes payments, and dispenses coffee based on sufficient resources. It also includes functionality for resource management and a maintenance mode to check resources and earnings.
 
-## How to Play:
-1. Game Objective: Guess which of the two options (A or B) has more followers on social media.
-2. Starting the Game: The game will display two options with their details (name, description, and country).
-3. Making a Guess: You will be prompted to choose either 'A' or 'B' based on which one you think has more followers.
-4. Game Progression: If you guess correctly, you will continue to the next round with a new set of options.
-5. Losing the Game: If your guess is wrong, the game will end, and your final score will be displayed.
-6. Replay Option: After the game ends, you can choose to play again or exit.
+## How to Use:
+1. Start the program to power on the coffee machine simulation.  
+2. Choose a drink by entering the name (espresso, latte, or cappuccino).  
+3. Insert coins as prompted (quarters, dimes, nickels, pennies).  
+4. Confirm your payment; if sufficient, your drink will be prepared.  
+5. If resources are insufficient, a message will notify you, and the process will restart.  
+6. Use the 'report' option to view the current status of machine resources and earnings.  
+7. Use the 'off' option to turn off the coffee machine simulation.  
 
 ## Level
 - **Level**: Intermediate
-- **Skills:** Python programming, modular programming, user input validation, data handling, loops, basic debugging
-- **Domain:** Gaming, Game Development, Fun & Games, Entertainment
+- **Skills:** Python, beginner-intermediate, project-based-learning, CLI application, programming fundamentals, resource management.
+- **Domain:** Automation and Simulation
 
 ## Author
 - **Name**: Pranjal Sarnaik
-- **Date**: 2024-12-05
+- **Date**: 2024-11-29
 
 ## Features
-- Random selection of elements for comparison.
-- Validation of user input for better user experience.
-- Continuous gameplay until the user makes a wrong guess.
-- Keeps track of and displays the user's score.
-- Option to replay the game after completion.
+- Simulates a coffee machine offering multiple drink options (espresso, latte, cappuccino).
+- Validates user input for drink selection and payment.
+- Calculates and processes payments using coins (quarters, dimes, nickels, pennies).
+- Checks resource availability before making a drink.
+- Tracks and updates resource levels after each use.
+- Displays reports for resources and earnings in maintenance mode.
+- Designed for interactive use in a command-line interface.
 
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/pranjalco/higher-lower-game-intermediate.git
+   git clone https://github.com/pranjalco/coffee-machine-intermediate.git
 
 2. Navigate to the project directory:
    ```bash
-   cd higher-lower-game-intermediate
+   cd coffee-machine-intermediate
 
 ## Running the Program
 1. Ensure Python 3.9 or later is installed on your system.
