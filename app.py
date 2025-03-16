@@ -1,5 +1,6 @@
 import sys
 from art import *
+import time
 
 """
 # Project 11: Coffee Machine
@@ -90,8 +91,14 @@ def user_coffee_choice():
 def turn_off_button():
     """This function exits the program immediately whenever called"""
     add_blank_line()
-    print("Turning off the coffee machine...")
+    print(f"Turning off the coffee machine.")
+    time.sleep(1)
+    print("..")
+    time.sleep(1)
+    print("...")
+    time.sleep(1)
     print("Turned off 😿")
+    time.sleep(1)
     add_blank_line()
     name_l()
     return sys.exit()
